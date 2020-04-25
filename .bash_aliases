@@ -1,0 +1,7 @@
+alias sbrc='source ~/.bashrc'
+alias val='vim ~/.bash_aliases'
+alias vbrc='vim ~/.bashrc'
+alias szrc='source ~/.zshrc'
+alias vzrc='vim ~/.zshrc'
+alias nominatim='docker run --restart=always -p 6432:5432 -p 7070:8080 -d --name nominatim -v ~/data/nominatimdata/postgresdata:/var/lib/postgresql/11/main nominatim bash /app/start.sh'
+alias ipy='ipython'
