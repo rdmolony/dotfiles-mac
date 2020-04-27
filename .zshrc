@@ -117,8 +117,6 @@ source $ZSH/oh-my-zsh.sh
 # Custom
 
 source $HOME/.bash_aliases
-LESSOPEN="|/Users/rowanm/src/lesspipe/lesspipe.sh %s"
-export LESSOPEN
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

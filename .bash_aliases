@@ -7,6 +7,4 @@ alias nominatim='docker run --restart=always -p 6432:5432 -p 7070:8080 -d --name
 alias ipy='ipython'
 alias mycode='cd ~/Documents/my-code'
 alias clonedcode='cd ~/Documents/cloned-code'
-alias rless='less -r'
-alias Rless='less -R'
 alias lalias='alias | less'
