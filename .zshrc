@@ -1,5 +1,12 @@
 # --------------------------------
 # --------------------------------
+# zplug
+
+source ~/.zplug/init.zsh
+zplug load
+
+# --------------------------------
+# --------------------------------
 # oh-my-zsh
 
 # If you come from bash you might have to change your $PATH.
@@ -74,6 +81,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git 
+    vi-mode
+    zsh-vimode-visual
+    vundle
     tmux
     python
     colorize 
