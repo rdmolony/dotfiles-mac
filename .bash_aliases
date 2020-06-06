@@ -20,6 +20,6 @@ alias mycode='cd ~/Documents/my-code'
 alias clonedcode='cd ~/Documents/cloned-code'
 
 # octave
-alias oct-gui='octave --force-gui'
-alias oct='octave-cli'
+alias oct-gui='octave --force-gui --silent'
+alias oct='octave-cli --silent'
 
