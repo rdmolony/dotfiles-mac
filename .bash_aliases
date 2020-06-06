@@ -12,6 +12,7 @@ alias nominatim='docker run --restart=always -p 6432:5432 -p 7070:8080 -d --name
 # python
 alias ipy='ipython'
 alias ca='conda activate'
+alias cda='conda deactivate'
 alias ci='conda install'
 alias pi='pip install'
 
