@@ -1,1 +1,11 @@
+% --- Prompt
 PS1 ("\\[\\033[01;31m\\][\\#]: \\[\\033[0m\\]")
+
+% --- Vim
+edit mode async
+edit home .
+% edit editor "<terminal> -e 'vim %s'"
+EDITOR ('vim > /dev/tty 2>&1 < /dev/tty %s')
+
+% --- Path
+addpath('~/Documents/my-code/coursera-ml')
