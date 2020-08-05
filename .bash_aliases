@@ -17,8 +17,8 @@ alias ci='conda install'
 alias pi='pip install'
 
 # folders
-alias mycode='cd ~/Documents/my-code'
-alias clonedcode='cd ~/Documents/cloned-code'
+alias Code='cd ~/Code'
+alias coursera-ml='cd ~/Documents/my-code/coursera-ml'
 
 # octave
 alias oct-gui='octave --force-gui --silent'
