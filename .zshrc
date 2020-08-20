@@ -150,3 +150,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Enable pyenv by default
+eval "$(pyenv init -)"
