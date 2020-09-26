@@ -81,16 +81,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git 
-    vi-mode
-    zsh-vimode-visual
-    vundle
-    tmux
-    python
     colorize 
     colored-man-pages 
-    cp 
-    npm 
-    web-search 
     zsh-syntax-highlighting
 )
 
@@ -151,4 +143,9 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # Enable pyenv by default
+export PATH="~/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
+
+# activate poetry & enable tab completion
+source $HOME/.poetry/env
+fpath+=~/.zfunc
